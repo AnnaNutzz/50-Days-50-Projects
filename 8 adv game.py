@@ -186,7 +186,7 @@ def vikings():
         print(f"The vikings look at each confused, then face you and laugh. 'OH! We can help the lil' guy out that is no issue', he turns towards his mates. \n'Come on here have a drink with us first!', the viking said while slipping in you a key... \n\tnow you have 2 keys. \nThe vikings take you to a VERY huge door.")
         key = int(input(f"Which key do you use? \n\t1. the alligator's? \n\t2. the vikings? \n"))
 
-        if key == 1 or key == 2:
+        if key:
             key_real = (f"1. i am sure \n2. let me think again \n")
             
             if key_real == 1:
