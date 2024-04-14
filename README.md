@@ -9,3 +9,4 @@ I tried my best to complete the 50 projects in 50 days to strengthen my Python s
 6. Math Timed Challenge Game -> a math questions game which times and checks your accuracy
 7. Number Guessing Game -> A Simple Number Guessing Game with Improved Guidance
 8. Text-based RPG game -> A Simple RPG choose your adv game with multiple choices for the player to choose from with many different outcomes
+9. Password Generator -> Generates a random password that meets the specified criteria.
