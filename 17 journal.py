@@ -14,7 +14,7 @@ while True:
             mood = input("\n ☀️ On a scale of 1-10 how was your day?: \n")
             thoughts = input("\n ✏️ What happened today?: \n")
 
-            file_path = f"D:/Coding/Python/50 days 50 projects/files for codes/journal/{date}.txt"
+            file_path = f"\\path\\{date}.txt"
 
             with open(file_path, 'w') as file:
                 file.write(f"Date: {date} \n\n")
