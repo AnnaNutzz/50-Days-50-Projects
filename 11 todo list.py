@@ -15,7 +15,7 @@ variables for my own understanding and future references:
 
 """
 
-file_path = "D:/Coding/Python/50 days 50 projects/files for codes/todos.txt"      # Path to save the to-do list
+file_path = "\\file_path"      # Path to save the to-do list
 
 
 import functioning as func
