@@ -1,24 +1,20 @@
 """
-Data extraction from any excel sheet
+Data extraction from any excel sheet automation
 For my own Quality of Life
 """
 
 import pandas as pd
 import numpy as np
 
-
-"""
-faculty finding for project
-"""
-
 # Load the Excel sheet
-sheet_data = pd.read_excel("D:/Coding/Python/50 days 50 projects/files for codes/faculties_project.xlsx")
+sheet_data = pd.read_excel("\\xlsx_filepath")
 
 # Clean column names by stripping whitespace (if any)
 sheet_data.columns = sheet_data.columns.str.strip()
 
-# Relevant topics for the project focus
+# Relevant topics for the sheet focus
 relevant_topics = [
+# Example 
     "AI", "Machine Learning", "Deep Learning", "Natural Language Processing",
     "Education Technology", "Generative adversarial networks", "Education",
     "Assistive Technology", "Convolution neural network", "Generative AI"
@@ -31,10 +27,10 @@ def match_relevant_topics(row):
     return any(topic for topic in topics if pd.notna(topic) and topic in relevant_topics)
 
 # Filter rows where any relevant topic matches
-filtered_professors = sheet_data[sheet_data.apply(match_relevant_topics, axis=1)]
+filtered_data = sheet_data[sheet_data.apply(match_relevant_topics, axis=1)]
 
-# Select the top 50 professors, prioritize by the most matching topics
-top_professors = filtered_professors.head(20)
+# Select the top 20 relevant data, prioritize by the most matching topics
+top_results = filtered_data.head(20)
 
-# Display the selected professors
-print(top_professors[["Sr. No.", "Name", "Cabin/Cubical Number", "Topic 1", "Topic 2", "Topic 3", "Topic 4"]])
+# Display the selected data
+print(top_results[["row_names"]])        # rows to show
