@@ -1,23 +1,75 @@
-# 50-Days-50-Projects
-I tried my best to complete the 50 projects in 50 days to strengthen my Python skills
-----------------------------------------------------------------------------------------------------------
-1. Hello world -> Start with a simple "Hello, World!" program to familiarise yourself with the basics.
-2. Calculator -> Building a basic calculator for addition, subtraction, multiplication, and division.
-3. Hangman -> Build a classic Hangman game 🚫
-4. Rock Paper Scissors Game -> Build a simple RPS game
-5. Pig Game -> Build a gambling game like blackjack but with dice numbers
-6. Math Timed Challenge Game -> a math questions game which times and checks your accuracy
-7. Number Guessing Game -> A Simple Number Guessing Game with Improved Guidance
-8. Text-based RPG game -> A Simple RPG choose your adv game with multiple choices for the player to choose from with many different outcomes
-9. Password Generator -> Generates a random password that meets the specified criteria
-10. URL Shortner -> Generates a shortened version of the url given
-11. TODO list -> Generates a todo list CLI application, user can add, edit, complete, show, and exit the program
-12. Filters -> Generate a new image with selected custom made filters 🚫
-13. File merger -> Generates a merged word, ppt, pdf file of 2 or all files given in the folder path
-14. File sorter -> Sorts files in a folder selected according to names
-15. TIC TAC TOE -> A simple Tic Tac Toe
-16. Translation -> Generates English to Hindi translation to any sentence using MarianMTModel and MarianTokenizer
-17. Journal -> A simple CLI journal application to input journal date, mood and thoughts
-18. TIC TAC TOE -> TKinter made Tic Tac Toe using Minimax algorithm for more wins (mostly wins or forces a draw, rarely won against it)
-19. Data Extraction from XLSX -> Data extraction from any excel sheet automation, for my own Quality of Life
-20. Text Normalization
+# 50 Days 50 Python Projects
+
+This repository is part of my long-term learning challenge to strengthen my Python programming skills through hands-on projects.  
+Although the challenge started in 2023, academic workload slowed the pace. I have now resumed it with full focus.
+
+✅ Completed: 20 / 50 Projects  
+🎯 Goal: Strengthen logic, automation, games, file handling, NLP basics, and GUI development.
+
+---
+
+## ✅ Completed Projects
+
+1. Hello World  
+   → Simple program to understand Python syntax and execution.
+
+2. Calculator  
+   → Basic calculator supporting addition, subtraction, multiplication, and division.
+
+3. Hangman Game  
+   → Classic word-guessing game built in Python.
+
+4. Rock Paper Scissors  
+   → CLI-based RPS game with random outcomes.
+
+5. Pig Dice Game  
+   → Gambling-style dice game inspired by blackjack mechanics.
+
+6. Math Timed Challenge  
+   → Timed math quiz game that tracks speed and accuracy.
+
+7. Number Guessing Game  
+   → Random number guessing game with improved user hints.
+
+8. Text-Based RPG  
+   → Choice-driven adventure game with multiple outcomes.
+
+9. Password Generator  
+   → Generates strong random passwords based on user-defined rules.
+
+10. URL Shortener  
+   → Generates shortened versions of long URLs.
+
+11. TODO List (CLI)  
+   → Task manager where users can add, edit, complete, view, and exit.
+
+12. Image Filters  
+   → Custom image filter generator (currently incomplete).
+
+13. File Merger  
+   → Merges multiple Word, PowerPoint, and PDF files from a folder.
+
+14. File Sorter  
+   → Automatically sorts files in a folder based on filename patterns.
+
+15. Tic Tac Toe (CLI)  
+   → Classic two-player Tic Tac Toe game.
+
+16. Translation System  
+   → English to Hindi translation using MarianMTModel and MarianTokenizer.
+
+17. Journal Application  
+   → CLI-based journal where users enter date, mood, and thoughts.
+
+18. Tic Tac Toe (Tkinter + Minimax AI)  
+   → GUI-based Tic Tac Toe with AI opponent using the Minimax algorithm.
+
+19. Data Extraction from XLSX  
+   → Automation tool to extract data from Excel sheets.
+
+20. Text Normalization (NLP)  
+   → Implements segmentation, correction, tokenization, lemmatization, and POS tagging.
+
+---
+
+📌 More projects will be added continuously as part of the ongoing challenge.
